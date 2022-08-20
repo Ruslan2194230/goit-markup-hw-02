@@ -1,0 +1,83 @@
+
+a{
+  text-decoration: none;
+}
+
+.img:hover {
+  border: 4px solid #2196f3;
+}
+ul{
+  list-style: none;
+}
+.page-header {
+  background-color: #ffffff;
+}
+.site-nav {
+  color: #212121;
+}
+.site-nav-studio:hover {
+  color: #2196f3;
+}
+.site-nav-portfolio:hover {
+  color: #2196f3;
+}
+.site-nav-contacts:hover {
+  color: #2196f3;
+}
+.site-nav-infodevstudiocom:hover {
+  color: #2196f3;
+}
+.site-nav-namber {
+  color: #757575;
+}
+.site-nav-namber:hover {
+  color: #2196f3;
+}
+.order-area {
+  background-color: #2f303a;
+}
+.text-on-order-area {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter: 6%;
+  align: center;
+}
+.button-to-order {
+  background-color: #2196f3;
+  color: #ffffff;
+  align: center;
+}
+.benefits {
+  color: #212121,
+  font-family: Roboto,
+  font-style: bold
+  font-size: 40 px,
+  line-height: 16 px,
+  vertical align: Top;
+}
+.desc {
+  color: #757575,
+  font-family: Roboto,
+  font-style: Regular,
+  font-size: 14 px,
+  font height: 24 px,
+  align:left;
+}
+.text {
+  font-style: bold;
+}
+.footer {
+  background-color: #2F303A;
+}
+
+.footer-text .link{
+  color: #ffffff;
+}
+
+.footer-text .link:hover{
+text-decoration: underline
+cornflowerblue;
+}
