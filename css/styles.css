@@ -491,12 +491,37 @@ section .team-area {
   top: 2097px;
   background-color: #2f303a;
 }
+.footer-text .link-number {
+  position: absolut;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2268px;
+}
+.footer-text .link-adress {
+  position: absolut;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2208px;
+}
+.footer-text .link-email {
+  position: absolut;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2238px;
+}
 
-.footer-text .link {
+.footer-text .link-number,
+.footer-text .link-adress,
+.footer-text .link-email {
   color: #ffffff;
 }
 
-.footer-text .link:hover {
+.footer-text .link-number:hover,
+.footer-text .link-adress:hover,
+.footer-text .link-email:hover {
   text-decoration: underline cornflowerblue;
 }
 
@@ -759,4 +784,19 @@ section .team-area {
   box-sizing: border-box;
   width: 100%;
   height: 294px;
+}
+
+.page-header .logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+.footer .logo {
+  position: absolut;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 2157px;
 }
