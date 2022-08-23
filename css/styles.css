@@ -43,13 +43,18 @@ ul {
   list-style: none;
 }
 .page-header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
   background-color: #ffffff;
 }
 .site-nav {
   color: #212121;
 }
 .site-nav-studio-current {
-  text-decoration: underline;
+  border-bottom: 4px #2196f3 solid;
 }
 .site-nav-studio-current:hover {
   color: #2196f3;
@@ -72,10 +77,106 @@ ul {
 .site-nav-namber:hover {
   color: #2196f3;
 }
+
+.site-nav-studio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav-studio-current {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav-portfolio-current {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav-contacts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav-infodevstudiocom {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav-namber {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
 .order-area {
-  position: -ms-page;
   width: 1600px;
-  height: 400px;
+  height: 600px;
   left: 0px;
   top: 80px;
 
@@ -300,6 +401,13 @@ b .text {
   letter-spacing: 0.03em;
   color: #212121;
 }
+section .team-area {
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
+  background: #f5f4fa;
+}
 
 .team {
   position: absolute;
@@ -376,6 +484,11 @@ b .text {
   font-style: bold;
 }
 .footer {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
   background-color: #2f303a;
 }
 
@@ -395,13 +508,255 @@ b .text {
   color: #2196f3;
 }
 .site-nav-portfolio-current {
-  text-decoration: underline;
+  border-bottom: 4px #2196f3 solid;
 }
-.button .link {
+.button .link-oll,
+.button .link-sites,
+.button .link-apps {
   color: var(--black-text-color);
   background-color: #f5f4fa;
 }
-.button .link:hover {
+.button .link-oll:hover,
+.button .link-sites:hover,
+.button .link-apps:hover,
+.button .link-marketing:hover {
+  color: #ffffff;
   background-color: #2196f3;
   border: 2px solid var(--accent-color);
+}
+.button .link-oll {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  text-align: center;
+  background: #f5f4fa;
+  /* shadow-middle */
+  color: #212121;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.button .link-sites {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button .link-apps {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  text-align: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button .link-design:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: 2px solid var(--accent-color);
+}
+.button .link-design {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+  color: var(--black-text-color);
+  text-align: center;
+  vertical-align: middle;
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button .link-marketing {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  color: var(--black-text-color);
+  text-align: center;
+  vertical-align: middle;
+  background: #f5f4fa;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.footer-potfolio {
+  position: absolute;
+  width: 1600px;
+  height: 150px;
+  left: 0px;
+  top: 1628px;
+  background: #2f303a;
+}
+.name-of-desc {
+  text-align: center;
+  font-style: normal;
+}
+.desc {
+  text-align: center;
+}
+.name-of-desc:hover,
+.desc:hover {
+  text-decoration: underline #2196f3;
+}
+.technokryak-site {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.posters {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.seafood-restaurant {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 262px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.project-prime {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.project-boxes {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.inspiration-has-no-borders-site {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 696px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.journal-design {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.project-lab {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 615px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.growing-business-app {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 1015px;
+  top: 1130px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.technokryak-site:hover,
+.posters:hover,
+.seafood-restaurant:hover,
+.project-prime:hover,
+.project-boxes:hover,
+.inspiration-has-no-borders-site:hover,
+.journal-design:hover,
+.project-lab:hover,
+.growing-business-app:hover {
+  border-radius: 0px 0px 4px 4px;
+  border: 2px solid #2196f3;
+}
+.technokryak-site-img:hover,
+.bascetball-poster-img:hover,
+.seafood-restaurant-img:hover,
+.project-prime-img:hover,
+.project-boxes-img:hover,
+.inspiration-has-no-borders-site-img:hover,
+.journal-design-img:hover,
+.project-lab-img:hover,
+.growing-business-app-img:hover {
+  border-radius: 0px 0px 4px 4px;
+  border: 2px solid #2196f3;
+}
+.technokryak-site-img,
+.bascetball-poster-img,
+.seafood-restaurant-img,
+.project-prime-img,
+.project-boxes-img,
+.inspiration-has-no-borders-site-img:hover,
+.journal-design-img,
+.project-lab-img,
+.growing-business-app-img {
+  box-sizing: border-box;
+  width: 100%;
+  height: 294px;
 }
